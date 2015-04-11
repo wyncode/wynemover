@@ -10,6 +10,6 @@ build_chrome:
 	crxmake --pack-extension=$(CHROME_DIR) --extension-output=wynemover.crx
 
 build_firefox:
-	cd $(FIREFOX_DIR) && zip -r -FS $(ROOT_DIR)wynemover.xpi .
+	cd $(FIREFOX_DIR) && zip -r -FS $(ROOT_DIR)/wynemover.xpi .
 
 
