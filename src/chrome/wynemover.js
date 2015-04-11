@@ -24,6 +24,6 @@
   }
 
   function replaceText (node) {
-    node.nodeValue = node.nodeValue.replace(/\bw?in/ig, "wyn")
+    node.nodeValue = node.nodeValue.replace(/\bw?in+/ig, "wyn")
   }
 })()
