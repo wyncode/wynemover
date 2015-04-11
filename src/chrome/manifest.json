@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Wyn 'Em Over",
+  "version": "1.0",
+  "description": "Wyn students over with love",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["wynemover.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

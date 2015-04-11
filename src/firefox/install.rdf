@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>weare@wyncode.co</em:id>
+    <em:version>1.0</em:version>
+    <em:type>2</em:type>
+
+    <!-- Target Application this extension can install into,
+         with minimum and maximum supported versions. -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{7d8458c0-e14e-4ce8-b9d9-b2a001a4acb2}</em:id>
+        <em:minVersion>4.0</em:minVersion>
+        <em:maxVersion>10.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>Wyn 'Em Over</em:name>
+    <em:description>Takes a spelling tick to it's illogical extreme</em:description>
+    <em:creator>Damon Davison</em:creator>
+    <em:homepageURL>http://github.com/wyncode/wynemover</em:homepageURL>
+  </Description>
+</RDF>
