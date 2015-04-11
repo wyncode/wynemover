@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Damon Davison</string>
 	<key>Builder Version</key>
-	<string>10600.3.18</string>
+	<string>10600.4.10.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>WynEmOver</string>
 	<key>CFBundleIdentifier</key>
@@ -31,7 +31,7 @@
 	<key>Description</key>
 	<string>Wyn students over with love</string>
 	<key>DeveloperIdentifier</key>
-	<string>5M8CF62DN9</string>
+	<string>7M556HDWC4</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
